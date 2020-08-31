@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,157 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.svg{
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.svg .county:hover{
+  stroke: black;
+  stroke-width: 2px;
+  cursor: pointer;
+}
+
+.plaintext{
+  list-style-type: none;
+  margin-top: -26%;
+  margin-left: 16%;
+  overflow: hidden;
+  background-color:0;
+  /* #3C624B;/*#202B57;*/ 
+  position: absolute;
+  font-size: 50px;
+  font-family: 'Anton', sans-serif;
+  width: 100%;
+  /* height: 6%; */
+  color: black;
+  /* color:#3C624B; */
+
+}
+
+h1{
+  list-style-type: none;
+  padding-top:5%;
+  padding: '65px';
+  padding-left: 3%;
+  overflow: hidden;
+  background-color:0;
+  /* #3C624B;/*#202B57;*/ 
+  position: relative;
+  font-size: 618px;
+  font-family: 'Anton', sans-serif;
+  width: 100%;
+  /* height: 6%; */
+  color: black;
+  /* color:#3C624B; */
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+
+h4{
+  list-style-type: none;
+  overflow: hidden;
+  background-color:0;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 86px;
+  width: 100%;
+  /* height: 6%; */
+  /* color:#202B57; */
+  color:rgb(68, 66, 66);
+  font-family: 'Poiret One', cursive;
+}
+h5{
+  list-style-type: none;
+  margin-top: 10%;
+  padding: '65px';
+  overflow: hidden;
+  background-color:0;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 88px;
+  width: 100%;
+  /* height: 6%; */
+  /* color:#202B57; */
+  color:rgb(68, 66, 66);
+  font-family: 'Poiret One', cursive;
+}
+
+
+
+.charts{
+  width:60%;
+  height: min-content;
+  margin-left: 40%;
+  margin-top: -180px;
+  top:'65px';
+}
+.gender{
+  width: 40%;
+  /* margin-top: 6px; */
+  height: min-content;
+}
+
+
+/* 把它弄成position sticky的style */
+.sharebuttons{
+margin-top: 2%;
+padding-left: 16px;
+margin-left: 26px;
+border: 20px;
+display: inline-flex;
+}
+.sharebuttons img{
+  width: 66px;
+  height: auto;
+  padding-left: 26px;
+}
+
+.advicecontainer {
+  width: 100%;
+  height: 300px;
+  margin-top: 5%;
+  position: absolute;
+  background: darkolivegreen;
+  border-style: solid;
+  /* border-width: 5px; */
+  /* border-color: rgb(22, 18, 18); */
+
+}
+
+
+.rectangle {
+  width: '400px';
+  height: '600px';
+  top: '600px';
+  position: relative;
+  border-style: solid;
+  /* border-width: 5px;
+  border-color: rgb(22, 18, 18); */
+}
+
+  .box2{
+    position:relative;
+    width:550px;
+    height:235px;
+    background:0;
+    border-radius:5px;
+    margin:30px auto 0;
+    padding: 10px;
+    color:white; 
+}
+.buttonfornotes{
+  text-align: center;
+}
+.status{
+  margin-left: 45%;
 }
